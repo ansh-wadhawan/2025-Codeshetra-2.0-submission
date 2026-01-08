@@ -1,0 +1,42 @@
+.PolicyCancellation .cancellationDiv
+{
+    background-color : white;
+    color: #FFEE00 ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.PolicyCancellation .cancellationDiv #cancellationMainHeading
+{
+    color: #FFEE00;
+    font-size: 3.5em;
+    border-radius: 8px;
+    outline: 3px solid #FFEE00;
+    outline-offset: 10px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.PolicyCancellation .cancellationDiv .cancellationTextContainer
+{
+    border-top-left-radius: 50px;
+    border: 10px solid #FFEE00;
+    box-sizing: border-box;
+    border-bottom-right-radius: 50px;
+    background-color : black;
+    color: #FFEE00;
+    font-weight: bold;
+    width: 90vw;
+    padding: 30px;
+    margin: 75px;
+    box-shadow: 10px 10px 15px 15px #FFEE00A0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.2s;
+    cursor: pointer;
+}

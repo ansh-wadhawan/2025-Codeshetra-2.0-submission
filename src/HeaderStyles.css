@@ -1,0 +1,89 @@
+.nav-div a 
+{
+    font-weight: bold;
+    color: white;
+    transition: all 0.2s;
+}
+
+.nav-div span
+{
+    width: 20%;
+    height: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-div a:hover 
+{
+    text-decoration: underline;
+}
+
+
+.nav-div #login-button
+{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 16px;
+    font-weight: bold;
+    outline: none;
+    outline-offset: 0px;
+    transition: all 0.2s;
+}
+
+.nav-div #login-button:hover
+{
+    background-color: #000966;
+    color: white;
+    outline: 1px solid #000966;
+    outline-offset: 4px;
+}
+
+nav
+{
+    display: unset;
+}
+
+.nav-div
+{
+    height: 7.5vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+}
+
+@keyframes slidedown {
+    0%
+    {
+        transform: translateY(-100px);
+    }
+    100%
+    {
+        transform: translateY(0px);
+    }
+}
+
+.slidedown
+{
+    animation: slidedown 0.4s ease-in forwards;
+}
+
+@keyframes slideup {
+    0%
+    {
+        transform: translateY(0px);
+    }
+    100%
+    {
+        transform: translateY(-100px);
+    }
+}
+
+.slideup
+{
+    animation: slideup 0.4s ease-in forwards;
+}

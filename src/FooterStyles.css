@@ -1,0 +1,42 @@
+footer
+{
+    display: unset;
+}
+
+footer .footer-container
+{
+    height: 50vh;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container .footer-div
+{
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    border: 2px #FFDD00 solid;
+    border-radius: 4px;
+}
+
+.footer-container .footer-div a
+{
+    font-weight: bold;
+    color: white;
+    transition: all 0.2s;
+}
+
+
+.footer-container .footer-div a:hover 
+{
+    text-decoration: underline;
+    outline: 1px solid white;
+    outline-offset: 2px;
+}

@@ -1,0 +1,11 @@
+.section-container 
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-container .section-graphic
+{
+    height: 750px;
+    text-decoration: none;
+}
